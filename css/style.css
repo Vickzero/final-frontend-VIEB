@@ -1,0 +1,128 @@
+
+/*body {
+    
+}*/
+
+.raleway{
+
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-size: 1rem;
+    color: black;
+}
+
+.playfair {
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+
+header h1 span {
+
+    color: #037BC0;
+}
+h1 {
+    
+    font-size: 5rem;
+}
+
+h2 {
+    font-family: 'Playfair', serif;
+    font-size: 4rem;
+    --webkit-text-stroke: 2px #ffffff;
+    color: #12046c;
+    text-shadow: 0 0 30px rgba(11, 0, 220, 0.8), 0 0 20px rgba(224, 152, 107, 0.6), 0 0 30px rgba(92, 189, 238, 0.877);
+}
+
+h3 {
+    font-family: 'Playfair', serif;
+    font-size: 3rem;
+}
+
+
+.hero-section {
+    margin: 73px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.094), rgba(0, 0, 0, 0.341)),url('../img/principal.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+}
+
+.productos {
+
+    background-color: rgb(70, 105, 139);
+    color: aliceblue;
+}
+
+.categorias {
+
+    background-color: rgb(70, 105, 139);
+
+}
+
+.categorias h3{
+
+    color: azure;
+}
+
+.imagen{
+    transform: scale(var(--escala, 1));
+    transition: transform 0.25s;
+}
+
+.imagen:hover{
+    --escala: 1.2;
+    cursor:pointer;
+}
+
+.button {
+    padding: 10x 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {
+    
+    background-color: #3e8e41
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+footer {
+
+    background-color:rgb(70, 105, 139);
+    color: aliceblue;
+
+}
+
+footer a{
+
+    color: bisque !important;
+}
